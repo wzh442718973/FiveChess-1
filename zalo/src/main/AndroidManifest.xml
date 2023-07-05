@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.game.zalo">
+    <application>
+        <meta-data android:name="com.zing.zalo.zalosdk.appID" android:value="\${zalo_id}" />
+    </application>
+</manifest>

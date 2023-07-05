@@ -1,0 +1,18 @@
+<resources>
+    <string name="reload_web">หลดใหม่</string>
+    <string name="load_h5_failed">สถานะเครือข่ายปัจจุบันผิดปกติโปรดคลิกรีเฟรช</string>
+    <string name="load_h5_404">หน้าหายไปไหน</string>
+    <string name="please_wait">โปรดรอ...</string>
+    <string name="exit_tip">กดอีกครั้งเพื่อออก</string>
+    <string name="choose_image">เลือกรูปภาพ: </string>
+    <string name="camera">กล้อง</string>
+    <string name="albumn">คลังภาพ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="app_download_title">อัปเกรดแอป</string>
+    <string name="app_download_content">หลังจากยืนยันแล้วจะมีการดาวน์โหลดแอปเวอร์ชันใหม่</string>
+    <string name="app_download_confirm">ยืนยัน</string>
+    <string name="app_download_cancel">ยกเลิก</string>
+    <string name="downloading">กำลังดาวน์โหลด ...</string>
+    <string name="install_title">การติดตั้งแอป</string>
+    <string name="install_content">ต้องได้รับอนุญาตในการติดตั้ง</string>
+</resources>

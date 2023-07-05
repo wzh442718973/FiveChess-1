@@ -1,0 +1,19 @@
+<resources>
+    <string name="reload_web">reload</string>
+    <string name="load_h5_failed">network condition is abnormal, please click refresh</string>
+    <string name="load_h5_404">Where is the page～</string>
+    <string name="please_wait">please wait a moment...</string>
+    <string name="exit_tip">Press again to exit</string>
+    <string name="choose_image">Choose Image: </string>
+    <string name="camera">camera</string>
+    <string name="albumn">albumn</string>
+    <string name="cancel">cancel</string>
+    <string name="app_download_title">App updata</string>
+    <string name="app_download_content">After confirmation, the new version of app will be downloaded</string>
+    <string name="app_download_confirm">confirm</string>
+    <string name="app_download_cancel">cancel</string>
+    <string name="downloading">Downloading...</string>
+    <string name="install_title">App install</string>
+    <string name="install_content">Permission is required to install</string>
+    <string name="ssl_error">SSL authentication failed. Continue to access?</string>
+</resources>

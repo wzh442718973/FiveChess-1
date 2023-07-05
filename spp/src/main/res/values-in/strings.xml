@@ -1,0 +1,18 @@
+<resources>
+    <string name="reload_web">reload</string>
+    <string name="load_h5_failed">Status jaringan saat ini tidak normal, silakan klik segarkan</string>
+    <string name="load_h5_404">Kemana perginya halaman itu</string>
+    <string name="please_wait">Tunggu sebentar...</string>
+    <string name="exit_tip">Tekan lagi untuk keluar</string>
+    <string name="choose_image">Pilih gambar：</string>
+    <string name="camera">kamera</string>
+    <string name="albumn">Galeri</string>
+    <string name="cancel">membatalkan</string>
+    <string name="app_download_title">Peningkatan aplikasi</string>
+    <string name="app_download_content">Setelah konfirmasi, versi baru Aplikasi akan diunduh</string>
+    <string name="app_download_confirm">konfirmasi</string>
+    <string name="app_download_cancel">batalkan</string>
+    <string name="downloading">mengunduh ...</string>
+    <string name="install_title">Penginstalan aplikasi</string>
+    <string name="install_content">Perlu izin untuk memasang</string>
+</resources>

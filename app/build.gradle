@@ -4,18 +4,18 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 31
 
     defaultConfig {
         applicationId "com.lany.fivechess"
-        minSdkVersion 14
-        targetSdkVersion 28
+        minSdkVersion 22
+        targetSdkVersion 31
         versionCode 3
         versionName '1.0.2'
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

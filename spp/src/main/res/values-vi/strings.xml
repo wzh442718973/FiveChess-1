@@ -1,0 +1,18 @@
+<resources>
+    <string name="reload_web">reload</string>
+    <string name="load_h5_failed">Trạng thái mạng hiện tại không bình thường, vui lòng nhấp vào làm mới</string>
+    <string name="load_h5_404">Trang đã đi đâu</string>
+    <string name="please_wait">Vui lòng đợi ...</string>
+    <string name="exit_tip">nhấn một lần nữa để thoát</string>
+    <string name="choose_image">Chọn ảnh: </string>
+    <string name="camera">Máy ảnh</string>
+    <string name="albumn">Bộ sưu tập</string>
+    <string name="cancel">hủy bỏ</string>
+    <string name="app_download_title">Nâng cấp ứng dụng</string>
+    <string name="app_download_content">Sau khi xác nhận, một phiên bản mới của Ứng dụng sẽ được tải xuống</string>
+    <string name="app_download_confirm">xác nhận</string>
+    <string name="app_download_cancel">hủy</string>
+    <string name="downloading">đang tải xuống ...</string>
+    <string name="install_title">Cài đặt ứng dụng</string>
+    <string name="install_content">Cần quyền để cài đặt</string>
+</resources>

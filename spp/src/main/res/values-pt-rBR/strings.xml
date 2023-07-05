@@ -1,0 +1,21 @@
+<resources>
+    <string name="reload_web">recarregar</string>
+    <string name="load_h5_failed">Conexão instável, atualize a página do jogo</string>
+    <string name="load_h5_404">Página não encontrada～</string>
+    <string name="please_wait">Por favor Aguarde...</string>
+    <string name="exit_tip">Pressione novamente para sair</string>
+    <string name="choose_image">Selecionar foto：</string>
+    <string name="camera">Câmera</string>
+    <string name="albumn">Galeria</string>
+    <string name="cancel">Cancelar</string>
+    <string name="app_download_title">Nova versão</string>
+    <string name="app_download_content">Confirme para iniciar o download da última versão do aplicativo</string>
+    <string name="app_download_confirm">OK</string>
+    <string name="app_download_cancel">Cancelar</string>
+    <string name="downloading">Download...</string>
+    <string name="install_title">Instalação do aplicativo</string>
+    <string name="install_content">Por favor, aceite a instalação de fontes desconhecidas para iniciar o download</string>
+
+    <string name="ssl_error">A autenticação SSL falhou. Continuar ao acesso?</string>
+
+</resources>
