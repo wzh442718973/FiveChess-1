@@ -25,6 +25,8 @@
             android:text="@string/fight" />
 
         <Button
+            android:enabled="false"
+            android:visibility="gone"
             android:id="@+id/conn_fight"
             style="@style/BtnStyle"
             android:text="@string/fight_connection" />

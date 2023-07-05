@@ -49,9 +49,9 @@ public class ConnnectingService {
 	private InetAddress mCastAddress;
 
 	// 广播组地址
-	private static final String MUL_IP = "230.0.2.2";
-	private static final int MUL_PORT = 1688;
-	private static final int UDP_PORT = 2599;
+	private static final String MUL_IP = "239.0.0.1";
+	private static final int MUL_PORT = 52599;
+	private static final int UDP_PORT = 52588;
 
 	// 接收UPD消息
 	private UDPReceiver mUdpReceiver;

@@ -140,7 +140,7 @@ class ConnectionActivity : BaseActivity(), OnClickListener {
     private fun initNet() {
         mIP = ip
         if (TextUtils.isEmpty(mIP)) {
-            Toast.makeText(this, "请检查wifi连接后重试", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.error_tip1, Toast.LENGTH_LONG).show()
             finish()
         }
 

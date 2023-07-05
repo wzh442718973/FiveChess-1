@@ -28,8 +28,16 @@ class MainActivity : BaseActivity() {
         }
         conn_about.setOnClickListener {
             val b = AlertDialog.Builder(this@MainActivity)
-            b.setTitle(R.string.about)
-            b.setMessage("欢迎访问源代码\nhttps://github.com/lany192/FiveChess")
+            b.setTitle(getString(R.string.about) + ":" + getString(R.string.app_name))
+            var version = "v1.1"
+            try {
+                var pkgInfo = packageManager.getPackageInfo(packageName, 0)
+                version = "v" + pkgInfo.versionName
+            } catch (aa: Throwable) {
+
+            }
+
+            b.setMessage("Version: " + version)
             b.setPositiveButton(R.string.ok) { dialog, which -> }
             b.show()
         }

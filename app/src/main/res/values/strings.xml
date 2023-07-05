@@ -28,7 +28,8 @@
     <string name="setting">Setting</string>
     <string name="ok">OK</string>
     <string name="Continue">Continue</string>
-    <string name="scan_hint">搜索链接相同wifi的玩家（要链接同一个Wifi才能搜索到）</string>
+    <string name="scan_hint">Search for players with the same WiFi link (you need to link to the same WiFi to find it)</string>
     <string name="game_player">GamePlayer</string>
-    <string name="scan_loading">扫描中，请稍后......</string>
+    <string name="scan_loading">Scanning, please wait...</string>
+    <string name="error_tip1">Please check your wifi connection and try again</string>
 </resources>

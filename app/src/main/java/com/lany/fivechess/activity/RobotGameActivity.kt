@@ -113,10 +113,10 @@ class RobotGameActivity : BaseActivity(), OnClickListener {
             when (msg.what) {
                 Constants.GAME_OVER -> {
                     if (msg.arg1 == Game.BLACK) {
-                        showWinDialog("黑方胜！")
+                        showWinDialog(getString(R.string.myself) + ": WIN")
                         me!!.win()
                     } else if (msg.arg1 == Game.WHITE) {
-                        showWinDialog("白方胜！")
+                        showWinDialog(getString(R.string.computer) + ": WIN")
                         computer!!.win()
                     }
                     updateScore(me, computer)
@@ -143,11 +143,11 @@ class RobotGameActivity : BaseActivity(), OnClickListener {
         val b = AlertDialog.Builder(this)
         b.setCancelable(false)
         b.setMessage(message)
-        b.setPositiveButton("继续") { dialog, which ->
+        b.setPositiveButton(R.string.Continue) { dialog, which ->
             mGame!!.reset()
             mGameView!!.drawGame()
         }
-        b.setNegativeButton("退出") { dialog, which -> finish() }
+        b.setNegativeButton(R.string.exit) { dialog, which -> finish() }
         b.show()
     }
 

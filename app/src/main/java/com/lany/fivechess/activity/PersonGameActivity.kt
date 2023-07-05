@@ -39,10 +39,10 @@ class PersonGameActivity : BaseActivity(), OnClickListener {
             when (msg.what) {
                 Constants.GAME_OVER -> {
                     if (msg.arg1 == Game.BLACK) {
-                        showWinDialog("黑方�?")
+                        showWinDialog(getString(R.string.black) + ": WIN")
                         black!!.win()
                     } else if (msg.arg1 == Game.WHITE) {
-                        showWinDialog("白方�?")
+                        showWinDialog(getString(R.string.white) + ": WIN")
                         white!!.win()
                     }
                     updateScore(black, white)
