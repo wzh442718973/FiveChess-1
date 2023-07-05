@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <layer-list>
+
+                    <!-- outer circle -->
+                    <item>
+                        <shape android:shape="rectangle">
+                            <solid android:color="#6FDCC5" />
+                        </shape>
+                    </item>
+
+                    <!-- inner circle -->
+                    <item android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp">
+                        <shape android:shape="rectangle">
+                            <solid android:color="#B9C8F6" />
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+            <item android:bottom="4dp" android:left="4dp" android:right="4dp" android:top="4dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#7783F3" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="false">
+        <layer-list>
+            <item>
+                <layer-list>
+
+                    <!-- outer circle -->
+                    <item>
+                        <shape android:shape="rectangle">
+                            <solid android:color="#6FDCC5" />
+                        </shape>
+                    </item>
+
+                    <!-- inner circle -->
+                    <item android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp">
+                        <shape android:shape="rectangle">
+                            <solid android:color="#B9C8F6" />
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+            <item android:bottom="4dp" android:left="4dp" android:right="4dp" android:top="4dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#A1A1A1" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <layer-list>
+
+                    <!-- outer circle -->
+                    <item>
+                        <shape android:shape="rectangle">
+                            <solid android:color="#6FDCC5" />
+                        </shape>
+                    </item>
+
+                    <!-- inner circle -->
+                    <item android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp">
+                        <shape android:shape="rectangle">
+                            <solid android:color="#B9C8F6" />
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+            <item android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#2F5549" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

@@ -29,13 +29,9 @@
                 android:layout_weight="2"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:src="@drawable/black_chess" />
-
                 <TextView
+                    android:drawableLeft="@drawable/black"
+                    android:drawablePadding="2dp"
                     android:id="@+id/black_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -75,20 +71,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2">
 
-                <ImageView
-                    android:id="@+id/white_chess"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:src="@drawable/red_chess" />
-
                 <TextView
+                    android:drawableRight="@drawable/white"
+                    android:drawablePadding="2dp"
                     android:id="@+id/white_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@id/white_chess"
+                    android:layout_alignParentRight="true"
                     android:text="@string/computer"
                     android:textColor="@android:color/black"
                     android:textSize="16sp" />
@@ -138,7 +128,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/btn_circle_style"
+                android:background="@drawable/btn_style"
                 android:padding="16dp"
                 android:text="@string/restart"
                 android:textColor="@android:color/white"
@@ -150,12 +140,11 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/btn_circle_style"
+                android:background="@drawable/btn_style"
                 android:padding="16dp"
                 android:text="@string/rollback"
                 android:textColor="@android:color/white"
                 android:textSize="14sp" />
-
 
         </LinearLayout>
 

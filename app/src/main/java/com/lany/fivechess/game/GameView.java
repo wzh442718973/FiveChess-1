@@ -206,9 +206,9 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
         Canvas canvas = new Canvas(bitmap);
         Drawable d = null;
         if (type == 0) {
-            d = getResources().getDrawable(R.drawable.black_chess);
+            d = getResources().getDrawable(R.drawable.black);
         } else if (type == 1) {
-            d = getResources().getDrawable(R.drawable.red_chess);
+            d = getResources().getDrawable(R.drawable.white);
         } else if (type == 2) {
             d = getResources().getDrawable(R.drawable.black_new);
         } else if (type == 3) {
