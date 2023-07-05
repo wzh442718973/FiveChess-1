@@ -6,7 +6,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Message
-import android.support.v7.app.AlertDialog
 import android.text.TextUtils
 import android.util.Log
 import android.view.MotionEvent
@@ -16,6 +15,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import com.lany.fivechess.R
 import com.lany.fivechess.game.Constants
 import com.lany.fivechess.game.Game

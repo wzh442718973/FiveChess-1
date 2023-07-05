@@ -1,6 +1,6 @@
 plugins {
-//    id 'com.android.library'
-    id 'com.android.application'
+    id 'com.android.library'
+//    id 'com.android.application'
     id 'stringfog'
 //    id 'top.niunaijun.blackobfuscator'
 }
@@ -16,8 +16,8 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 31
-        versionCode version_Code.toInteger()
-        versionName version_Name
+//        versionCode version_Code.toInteger()
+//        versionName version_Name
         multiDexEnabled true
         flavorDimensions "versionCode"
         buildConfigField "int", "platformVersion", "1"
@@ -26,7 +26,7 @@ android {
         buildConfigField "boolean", "hasFCM", hasFCM
         buildConfigField "boolean", "hasJG", hasJG
 
-        applicationId application_Id
+//        applicationId application_Id
         resValue("string", "app_name", new String(app_name.getBytes("iso8859-1"), "UTF-8"))
         resValue("string", "http_url", http_url)
         resValue("string", "git_url", git_url)
@@ -52,7 +52,7 @@ android {
     buildTypes {
         release {
             minifyEnabled true
-            shrinkResources true
+//            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
 
@@ -68,13 +68,13 @@ android {
 }
 
 stringfog {
-    key "aa"
+    key "happysever"
     // 开关
     enable true
     // 加解密库的实现类路径，需和上面配置的加解密算法库一致。
     implementation 'com.github.megatronking.stringfog.xor.StringFogImpl'
     // 指定需加密的代码包路径，可配置多个，未指定将默认全部加密。
-    fogPackages = ['org.games']
+    fogPackages = ['com.train.educate']
 }
 
 //BlackObfuscator {

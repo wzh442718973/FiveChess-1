@@ -1,13 +1,13 @@
 package com.lany.fivechess.activity
 
 import android.os.*
-import android.support.v7.app.AlertDialog
 import android.util.Log
 import android.view.View
 import android.view.View.OnClickListener
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.app.AlertDialog
 import com.lany.fivechess.R
 import com.lany.fivechess.game.*
 

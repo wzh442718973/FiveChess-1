@@ -2,7 +2,8 @@ package com.lany.fivechess.activity
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
+import androidx.core.content.ContextCompat.startActivity
 import com.lany.fivechess.R
 import kotlinx.android.synthetic.main.activity_main.*
 

@@ -1,12 +1,13 @@
 package com.lany.fivechess.activity
 
 import android.os.Bundle
-import android.support.v7.app.ActionBar
-import android.support.v7.app.ActionBar.LayoutParams
-import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.*
 import android.view.View.OnClickListener
+import android.widget.LinearLayout
+import android.widget.RelativeLayout
+import androidx.appcompat.app.ActionBar
+import androidx.appcompat.app.AppCompatActivity
 import butterknife.ButterKnife
 
 abstract class BaseActivity : AppCompatActivity(), OnClickListener {
@@ -51,15 +52,19 @@ abstract class BaseActivity : AppCompatActivity(), OnClickListener {
                 mActionBar!!.setDisplayShowCustomEnabled(true)
                 val layoutRes = actionBarCustomViewLayoutRescId
                 val actionBarView = inflateView(layoutRes)
-                val params: LayoutParams
+                val params: ActionBar.LayoutParams
                 if (isAllActionBarCustom) {
                     // XLog.i(TAG, "全部自定义");
-                    params = LayoutParams(LayoutParams.MATCH_PARENT,
-                            LayoutParams.MATCH_PARENT)
+                    params = ActionBar.LayoutParams(
+                        ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.MATCH_PARENT
+                    )
                 } else {
                     // XLog.i(TAG, "右边自定义");
-                    params = LayoutParams(LayoutParams.WRAP_CONTENT,
-                            LayoutParams.MATCH_PARENT)
+                    params = ActionBar.LayoutParams(
+                        ViewGroup.LayoutParams.WRAP_CONTENT,
+                        ViewGroup.LayoutParams.MATCH_PARENT
+                    )
                     params.gravity = Gravity.RIGHT
                 }
                 mActionBar!!.setCustomView(actionBarView, params)
