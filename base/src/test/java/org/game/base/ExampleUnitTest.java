@@ -1,4 +1,4 @@
-package org.game.base;
+package com.train.educate.base;
 
 import org.junit.Test;
 

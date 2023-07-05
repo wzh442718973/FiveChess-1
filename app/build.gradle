@@ -7,7 +7,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "com.lany.fivechess"
+        applicationId "com.train.educate.happysever"
         minSdkVersion 22
         targetSdkVersion 31
         versionCode 3

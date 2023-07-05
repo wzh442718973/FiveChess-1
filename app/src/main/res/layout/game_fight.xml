@@ -102,7 +102,7 @@
             </RelativeLayout>
         </LinearLayout>
         <!-- Game area -->
-        <com.lany.fivechess.game.GameView
+        <com.train.educate.happysever.game.GameView
             android:id="@+id/game_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

@@ -1,4 +1,4 @@
-package org.game.base;
+package com.train.educate.base;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("org.game.base.test", appContext.getPackageName());
+        assertEquals("com.train.educate.base.test", appContext.getPackageName());
     }
 }
